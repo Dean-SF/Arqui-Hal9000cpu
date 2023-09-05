@@ -1,0 +1,14 @@
+PROGRAMA CREADO POR DEYAN SANABRIA FALLAS, ESTE PROGRAMA SOLICITA UN
+NUMERO AL USUARIO Y LO DUPLICA, POSTERIORMENTE LO IMPRIME EN PANTALLA
+PARA QUE EL USUARIO LO RECIBA
+
+::Datos
+
+-INICIO
+    salida "Ingrese un numero que desee duplicar: "
+    entrada R1
+    correrI R1
+    salida "El numero duplicado es: "
+    salida R1
+    salida "\n"
+-FIN

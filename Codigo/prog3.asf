@@ -1,0 +1,25 @@
+PROGRAMA CREADO POR DEYAN SANABRIA FALLAS, DICHO PROGRAMA SE ENCARGA DE
+COMPARAR DOS NUMEROS INGRESADOS POR EL USUARIO, EL PROGRAMA LE DICE
+AL USUARIO SI DICHOS NUMEROS SON IGUALES O SON DIFERENTES
+
+::Datos
+
+-INICIO
+    salida "Ingrese un numero a comparar: "
+    entrada R1
+    salida "Ingrese otro numero para comparar: "
+    entrada R2
+
+    comparar R1,R2
+    saltarNI no:
+
+Igual:
+    salida "Los numeros son iguales\n"
+    saltar final:
+
+no:
+    salida "Los numeros no son iguales\n"
+
+final:
+-FIN
+    

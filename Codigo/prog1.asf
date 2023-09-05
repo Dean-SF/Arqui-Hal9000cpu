@@ -1,0 +1,19 @@
+PROGRAMA CREADO POR DEYAN SANABRIA FALLAS, ESTE PROGRAMA
+PIDE 3 NUMEROS AL USUARIO Y LOS SUMA, LUEGO DA EL RESULTADO
+DE DICHA SUMA
+
+::Datos
+numero 0
+
+-INICIO
+    mover R3,3
+ciclo:
+    salida "Ingrese un numero: "
+    entrada R1
+    sumar numero,R1
+    ciclar ciclo:
+    salida "El resultado de la suma es: "
+    salida numero
+    salida "\n"
+
+-FIN
